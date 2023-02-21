@@ -5,8 +5,20 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Kalkulacka2"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="800" Width="600">
     <Grid>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="8,650,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="156,650,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="304,650,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="452,650,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="8,517,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="452,517,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="304,517,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="156,517,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="8,388,0,0" VerticalAlignment="Top" Width="140" Height="124"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="304,267,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="164,377,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
+        <Button Content="Button" HorizontalAlignment="Left" Margin="422,239,0,0" VerticalAlignment="Top" Width="140" Height="125"/>
 
     </Grid>
 </Window>
