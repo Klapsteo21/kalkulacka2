@@ -20,18 +20,28 @@ namespace Kalkulacka2
     /// </summary>
     public partial class MainWindow : Window
     {
+        long cislo1 = 0;
+        long cislo2 = 0;
+        string operace = "";
+
         public MainWindow()
         {
             InitializeComponent();
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-
-        }
-
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
+            
+        }
+
+        private void button5_click(object sender, RoutedEventArgs e)
+        {
+            if (operace == "")
+            {
+                cislo1 = cislo1 + 1;
+                textdisplay.Text = cislo1.ToString();
+            }
+       
 
         }
     }
